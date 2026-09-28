@@ -380,7 +380,7 @@
   </div>
 
   <div class="answer-panel">
-    <div class="title">答案详情（双击列表行即可复制） </div>
+    <div class="title">答案详情</div>
     <div class="line1" id="line1">
       <span class="placeholder">请在上方列表中选择一个题目</span>
     </div>
@@ -477,7 +477,7 @@ function renderList() {
   const total = RIDDLE_DATA.length;
   const shown = filteredData.length;
   if (shown === total) {
-    statsEl.textContent = `共 ${total} 条灯谜`;
+    statsEl.textContent = `共 ${total} 条灯谜（双击列表行即可复制）`;
   } else {
     statsEl.textContent = `匹配到 ${shown} 条 / 共 ${total} 条灯谜`;
   }
