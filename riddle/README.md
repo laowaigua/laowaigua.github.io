@@ -2,7 +2,7 @@
 
 一个轻量的灯谜 / 谜语在线查询工具，支持关键词实时搜索、一键复制答案，可部署到 GitHub Pages，纯前端、零依赖。
 
-**在线访问**：https://laowaigua.github.io
+**在线访问**：https://laowaigua.github.io/riddle
 
 ---
 
